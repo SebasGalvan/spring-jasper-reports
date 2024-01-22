@@ -18,8 +18,7 @@ public class Empleado {
     @Id
     @Generated
     private Long id;
-    private String firstname;
-    private String lastname;
+    private String name;
     private Double salary;
     private Date doj;
     private String designation;
